@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PHero Tube</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+            rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="navbar justify-between flex-wrap bg-base-100">
+                <div class="p-2 md:p-5">
+                    <img src="./img/Logo.png" alt>
+                </div>
+
+                <div class="p-2 md:p-5">
+                    <button class="btn normal-case">Sort by view</button>
+                </div>
+
+                <div class="p-2 md:p-5">
+                    <a class="btn btn-error text-white" href="./blog.html">Blog</a>
+                    <!-- <button class="btn btn-error">Error</button> -->
+                </div>
+            </div>
+            <div class="flex justify-center py-2">
+                <hr width="95%" align="right" />
+            </div>
+        </header>
+
+        <!-- Start Main Section -->
+        <main>
+            <!-- Category Name -->
+            <section id="all_category"
+                class="flex flex-wrap gap-3 py-2 justify-center">
+                <!-- <button class="btn btn-error text-white">Error</button> -->
+            </section>
+
+            <!-- Category Video Card-->
+            <section id="video_card"
+                class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+                <!-- <div class="card bg-base-100">
+                    <figure class="px-5 pt-10">
+                        <img
+                            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                            alt="Shoes" class="rounded-xl"/>
+                    </figure>
+
+                    
+                    <div class="absolute p-1 bg-[#171717] rounded top-52 left-64 md:top-48 md:left-56 lg:top-28 lg:left-24 xl:top-40 xl:left-44">
+                        <h2 class="text-xs text-white"><span>3</span> hrs <span>56</span> min ago</h2>
+                    </div>
+
+                    
+                    <div class="flex gap-2 collapse-title justify-center">
+                        <div class="items-start">
+                            <img class="rounded-full w-28" src="https://i.ibb.co/D9wWRM6/olivia.jpg" alt="">
+                        </div>
+                        <div class="items-start text-start">
+                            <h2 class="card-title text-base font-bold">Building a Winning UX Strategy Using the Kano Model</h2>
+                            <div class="flex gap-1">
+                                <p class="text-sm text-[#171717b3] leading-loose">Awlad Hossain</p>
+                                <img src="./img/verify.svg" alt="">
+                            </div>
+                            <p class="text-sm text-[#171717b3]">91K views</p>
+                        </div>
+                    </div>
+
+                </div> -->
+
+            </section>
+
+            <!-- No Data -->
+            <section>
+                <div id="no_data" class="hidden">
+                    <img class="m-auto pt-20" src="./img/Icon.png" alt>
+                    <p class="font-bold text-xl text-center pt-5">Oops!! Sorry,
+                        There is no content here</p>
+                </div>
+            </section>
+        </main>
+        <!-- js file -->
+        <script src="./index.js"></script>
+    </body>
+</html>

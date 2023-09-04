@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PHTube - Blog</title>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+            rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <header>
+            <div class="navbar justify-between flex-wrap bg-base-100">
+                <div class="p-0 md:p-5">
+                    <img src="./img/Logo.png" alt>
+                </div>
+
+                <div class="p-0 md:p-5">
+                    <a class="btn btn-error text-white" href="./index.html">Home</a>
+                    <!-- <button class="btn btn-outline btn-secondary">Secondary</button> -->
+                </div>
+
+                <div class="p-0 md:p-5">
+                    <a class="btn btn-error text-white" href="./blog.html">Blog</a>
+                    <!-- <button class="btn btn-error">Error</button> -->
+                </div>
+            </div>
+            <div class="flex justify-center py-2">
+                <hr width="95%" align="right" />
+            </div>
+        </header>
+        <main>
+            <section class="container mx-auto">
+                <h1 class="text-5xl font-bold text-center py-2 md:py-6">Blog</h1>
+                <div class="join join-vertical container mx-auto p-4">
+                    <div
+                        class="collapse collapse-arrow join-item border border-base-300 my-5">
+                        <input type="radio" name="my-accordion-4"
+                            checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Discuss the scope of var, let, and const
+                        </div>
+                        <div class="collapse-content">
+                            <p>Variables declared with var are in the function
+                                scope. Variables declared as let are in the
+                                block scope. Variables declared as const are in
+                                the block scope.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="collapse collapse-arrow join-item border border-base-300 my-5">
+                        <input type="radio" name="my-accordion-4" />
+                        <div class="collapse-title text-xl font-medium">
+                            Tell us the use cases of null and undefined
+                        </div>
+                        <div class="collapse-content">
+                            <p>In JavaScript, null and undefined data types may
+                                appear similar when viewed at an abstract level.
+                                As a result, developers often need clarification
+                                and help when debugging errors related to these
+                                two values.</p>
+                            <p class="pt-6">
+                                This article will go through the definitions of
+                                null and undefined along with their
+                                similarities, fundamental differences, and how
+                                you could utilize each of these values in your
+                                program.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="collapse collapse-arrow join-item border border-base-300 my-5">
+                        <input type="radio" name="my-accordion-4" />
+                        <div class="collapse-title text-xl font-medium">
+                            What do you mean by REST API?
+                        </div>
+                        <div class="collapse-content">
+                            <p>An API is a set of definitions and protocols for
+                                building and integrating application software.
+                                It's sometimes referred to as a contract between
+                                an information provider and an information
+                                user—establishing the content required from the
+                                consumer (the call) and the content required by
+                                the producer (the response). For example, the
+                                API design for a weather service could specify
+                                that the user supply a zip code and that the
+                                producer reply with a 2-part answer, the first
+                                being the high temperature, and the second being
+                                the low.</p>
+                            <p class="pt-6">
+                                In other words, if you want to interact with a
+                                computer or system to retrieve information or
+                                perform a function, an API helps you communicate
+                                what you want to that system so it can
+                                understand and fulfill the request.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="./index.js"></script>
+    </body>
+</html>
